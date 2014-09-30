@@ -1,0 +1,1552 @@
+/* Webicons by Adam Fairhead: http://adamfairhead.com */
+/* line 3, ../sass/webicons.scss */
+.webicon {
+  display: inline-block;
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+  text-indent: -999em;
+  text-align: left;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px; }
+
+/* line 4, ../sass/webicons.scss */
+.webicon:hover {
+  margin: -1px 0 1px;
+  -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); }
+
+/* line 5, ../sass/webicons.scss */
+.webicon.small {
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+/* line 6, ../sass/webicons.scss */
+.webicon.large {
+  width: 48px;
+  height: 48px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px; }
+
+/* restore webicons accessibility for print */
+@media print {
+  /* line 10, ../sass/webicons.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  /* line 11, ../sass/webicons.scss */
+  .webicon {
+    text-indent: 0;
+    width: auto !important;
+    height: auto !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important; } }
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.f500px {
+  background: url("../img/webicon-f500px-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.f500px.large {
+  background: url("../img/webicon-f500px.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.f500px.small {
+  background: url("../img/webicon-f500px-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.f500px {
+  background: url("../img/webicon-f500px.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.aboutme {
+  background: url("../img/webicon-aboutme-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.aboutme.large {
+  background: url("../img/webicon-aboutme.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.aboutme.small {
+  background: url("../img/webicon-aboutme-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.aboutme {
+  background: url("../img/webicon-aboutme.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.adn {
+  background: url("../img/webicon-adn-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.adn.large {
+  background: url("../img/webicon-adn.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.adn.small {
+  background: url("../img/webicon-adn-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.adn {
+  background: url("../img/webicon-adn.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.android {
+  background: url("../img/webicon-android-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.android.large {
+  background: url("../img/webicon-android.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.android.small {
+  background: url("../img/webicon-android-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.android {
+  background: url("../img/webicon-android.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.apple {
+  background: url("../img/webicon-apple-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.apple.large {
+  background: url("../img/webicon-apple.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.apple.small {
+  background: url("../img/webicon-apple-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.apple {
+  background: url("../img/webicon-apple.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.behance {
+  background: url("../img/webicon-behance-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.behance.large {
+  background: url("../img/webicon-behance.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.behance.small {
+  background: url("../img/webicon-behance-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.behance {
+  background: url("../img/webicon-behance.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.bitbucket {
+  background: url("../img/webicon-bitbucket-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.bitbucket.large {
+  background: url("../img/webicon-bitbucket.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.bitbucket.small {
+  background: url("../img/webicon-bitbucket-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.bitbucket {
+  background: url("../img/webicon-bitbucket.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.blogger {
+  background: url("../img/webicon-blogger-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.blogger.large {
+  background: url("../img/webicon-blogger.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.blogger.small {
+  background: url("../img/webicon-blogger-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.blogger {
+  background: url("../img/webicon-blogger.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.branch {
+  background: url("../img/webicon-branch-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.branch.large {
+  background: url("../img/webicon-branch.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.branch.small {
+  background: url("../img/webicon-branch-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.branch {
+  background: url("../img/webicon-branch.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.coderwall {
+  background: url("../img/webicon-coderwall-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.coderwall.large {
+  background: url("../img/webicon-coderwall.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.coderwall.small {
+  background: url("../img/webicon-coderwall-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.coderwall {
+  background: url("../img/webicon-coderwall.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.creativecloud {
+  background: url("../img/webicon-creativecloud-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.creativecloud.large {
+  background: url("../img/webicon-creativecloud.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.creativecloud.small {
+  background: url("../img/webicon-creativecloud-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.creativecloud {
+  background: url("../img/webicon-creativecloud.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.deviantart {
+  background: url("../img/webicon-deviantart-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.deviantart.large {
+  background: url("../img/webicon-deviantart.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.deviantart.small {
+  background: url("../img/webicon-deviantart-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.deviantart {
+  background: url("../img/webicon-deviantart.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.dribbble {
+  background: url("../img/webicon-dribbble-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.dribbble.large {
+  background: url("../img/webicon-dribbble.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.dribbble.small {
+  background: url("../img/webicon-dribbble-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.dribbble {
+  background: url("../img/webicon-dribbble.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.dropbox {
+  background: url("../img/webicon-dropbox-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.dropbox.large {
+  background: url("../img/webicon-dropbox.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.dropbox.small {
+  background: url("../img/webicon-dropbox-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.dropbox {
+  background: url("../img/webicon-dropbox.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.evernote {
+  background: url("../img/webicon-evernote-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.evernote.large {
+  background: url("../img/webicon-evernote.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.evernote.small {
+  background: url("../img/webicon-evernote-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.evernote {
+  background: url("../img/webicon-evernote.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.fairheadcreative {
+  background: url("../img/webicon-fairheadcreative-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.fairheadcreative.large {
+  background: url("../img/webicon-fairheadcreative.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.fairheadcreative.small {
+  background: url("../img/webicon-fairheadcreative-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.fairheadcreative {
+  background: url("../img/webicon-fairheadcreative.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.facebook {
+  background: url("../img/webicon-facebook-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.facebook.large {
+  background: url("../img/webicon-facebook.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.facebook.small {
+  background: url("../img/webicon-facebook-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.facebook {
+  background: url("../img/webicon-facebook.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.flickr {
+  background: url("../img/webicon-flickr-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.flickr.large {
+  background: url("../img/webicon-flickr.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.flickr.small {
+  background: url("../img/webicon-flickr-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.flickr {
+  background: url("../img/webicon-flickr.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.foursquare {
+  background: url("../img/webicon-foursquare-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.foursquare.large {
+  background: url("../img/webicon-foursquare.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.foursquare.small {
+  background: url("../img/webicon-foursquare-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.foursquare {
+  background: url("../img/webicon-foursquare.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.git {
+  background: url("../img/webicon-git-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.git.large {
+  background: url("../img/webicon-git.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.git.small {
+  background: url("../img/webicon-git-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.git {
+  background: url("../img/webicon-git.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.github {
+  background: url("../img/webicon-github-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.github.large {
+  background: url("../img/webicon-github.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.github.small {
+  background: url("../img/webicon-github-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.github {
+  background: url("../img/webicon-github.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.goodreads {
+  background: url("../img/webicon-goodreads-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.goodreads.large {
+  background: url("../img/webicon-goodreads.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.goodreads.small {
+  background: url("../img/webicon-goodreads-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.goodreads {
+  background: url("../img/webicon-goodreads.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.google {
+  background: url("../img/webicon-google-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.google.large {
+  background: url("../img/webicon-google.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.google.small {
+  background: url("../img/webicon-google-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.google {
+  background: url("../img/webicon-google.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.googleplay {
+  background: url("../img/webicon-googleplay-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.googleplay.large {
+  background: url("../img/webicon-googleplay.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.googleplay.small {
+  background: url("../img/webicon-googleplay-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.googleplay {
+  background: url("../img/webicon-googleplay.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.googleplus {
+  background: url("../img/webicon-googleplus-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.googleplus.large {
+  background: url("../img/webicon-googleplus.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.googleplus.small {
+  background: url("../img/webicon-googleplus-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.googleplus {
+  background: url("../img/webicon-googleplus.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.hangouts {
+  background: url("../img/webicon-hangouts-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.hangouts.large {
+  background: url("../img/webicon-hangouts.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.hangouts.small {
+  background: url("../img/webicon-hangouts-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.hangouts {
+  background: url("../img/webicon-hangouts.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.html5 {
+  background: url("../img/webicon-html5-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.html5.large {
+  background: url("../img/webicon-html5.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.html5.small {
+  background: url("../img/webicon-html5-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.html5 {
+  background: url("../img/webicon-html5.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.icloud {
+  background: url("../img/webicon-icloud-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.icloud.large {
+  background: url("../img/webicon-icloud.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.icloud.small {
+  background: url("../img/webicon-icloud-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.icloud {
+  background: url("../img/webicon-icloud.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.indiegogo {
+  background: url("../img/webicon-indiegogo-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.indiegogo.large {
+  background: url("../img/webicon-indiegogo.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.indiegogo.small {
+  background: url("../img/webicon-indiegogo-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.indiegogo {
+  background: url("../img/webicon-indiegogo.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.instagram {
+  background: url("../img/webicon-instagram-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.instagram.large {
+  background: url("../img/webicon-instagram.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.instagram.small {
+  background: url("../img/webicon-instagram-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.instagram {
+  background: url("../img/webicon-instagram.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.instapaper {
+  background: url("../img/webicon-instapaper-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.instapaper.large {
+  background: url("../img/webicon-instapaper.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.instapaper.small {
+  background: url("../img/webicon-instapaper-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.instapaper {
+  background: url("../img/webicon-instapaper.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.kickstarter {
+  background: url("../img/webicon-kickstarter-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.kickstarter.large {
+  background: url("../img/webicon-kickstarter.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.kickstarter.small {
+  background: url("../img/webicon-kickstarter-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.kickstarter {
+  background: url("../img/webicon-kickstarter.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.klout {
+  background: url("../img/webicon-klout-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.klout.large {
+  background: url("../img/webicon-klout.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.klout.small {
+  background: url("../img/webicon-klout-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.klout {
+  background: url("../img/webicon-klout.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.lastfm {
+  background: url("../img/webicon-lastfm-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.lastfm.large {
+  background: url("../img/webicon-lastfm.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.lastfm.small {
+  background: url("../img/webicon-lastfm-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.lastfm {
+  background: url("../img/webicon-lastfm.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.linkedin {
+  background: url("../img/webicon-linkedin-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.linkedin.large {
+  background: url("../img/webicon-linkedin.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.linkedin.small {
+  background: url("../img/webicon-linkedin-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.linkedin {
+  background: url("../img/webicon-linkedin.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.mail {
+  background: url("../img/webicon-mail-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.mail.large {
+  background: url("../img/webicon-mail.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.mail.small {
+  background: url("../img/webicon-mail-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.mail {
+  background: url("../img/webicon-mail.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.medium {
+  background: url("../img/webicon-medium-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.medium.large {
+  background: url("../img/webicon-medium.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.medium.small {
+  background: url("../img/webicon-medium-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.medium {
+  background: url("../img/webicon-medium.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.mixi {
+  background: url("../img/webicon-mixi-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.mixi.large {
+  background: url("../img/webicon-mixi.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.mixi.small {
+  background: url("../img/webicon-mixi-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.mixi {
+  background: url("../img/webicon-mixi.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.msn {
+  background: url("../img/webicon-msn-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.msn.large {
+  background: url("../img/webicon-msn.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.msn.small {
+  background: url("../img/webicon-msn-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.msn {
+  background: url("../img/webicon-msn.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.openid {
+  background: url("../img/webicon-openid-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.openid.large {
+  background: url("../img/webicon-openid.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.openid.small {
+  background: url("../img/webicon-openid-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.openid {
+  background: url("../img/webicon-openid.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.picasa {
+  background: url("../img/webicon-picasa-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.picasa.large {
+  background: url("../img/webicon-picasa.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.picasa.small {
+  background: url("../img/webicon-picasa-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.picasa {
+  background: url("../img/webicon-picasa.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.pinterest {
+  background: url("../img/webicon-pinterest-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.pinterest.large {
+  background: url("../img/webicon-pinterest.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.pinterest.small {
+  background: url("../img/webicon-pinterest-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.pinterest {
+  background: url("../img/webicon-pinterest.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.pocketapp {
+  background: url("../img/webicon-pocketapp-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.pocketapp.large {
+  background: url("../img/webicon-pocketapp.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.pocketapp.small {
+  background: url("../img/webicon-pocketapp-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.pocketapp {
+  background: url("../img/webicon-pocketapp.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.potluck {
+  background: url("../img/webicon-potluck-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.potluck.large {
+  background: url("../img/webicon-potluck.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.potluck.small {
+  background: url("../img/webicon-potluck-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.potluck {
+  background: url("../img/webicon-potluck.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.quora {
+  background: url("../img/webicon-quora-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.quora.large {
+  background: url("../img/webicon-quora.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.quora.small {
+  background: url("../img/webicon-quora-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.quora {
+  background: url("../img/webicon-quora.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.orkut {
+  background: url("../img/webicon-orkut-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.orkut.large {
+  background: url("../img/webicon-orkut.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.orkut.small {
+  background: url("../img/webicon-orkut-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.orkut {
+  background: url("../img/webicon-orkut.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.mercurial {
+  background: url("../img/webicon-mercurial-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.mercurial.large {
+  background: url("../img/webicon-mercurial.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.mercurial.small {
+  background: url("../img/webicon-mercurial-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.mercurial {
+  background: url("../img/webicon-mercurial.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.rdio {
+  background: url("../img/webicon-rdio-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.rdio.large {
+  background: url("../img/webicon-rdio.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.rdio.small {
+  background: url("../img/webicon-rdio-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.rdio {
+  background: url("../img/webicon-rdio.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.reddit {
+  background: url("../img/webicon-reddit-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.reddit.large {
+  background: url("../img/webicon-reddit.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.reddit.small {
+  background: url("../img/webicon-reddit-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.reddit {
+  background: url("../img/webicon-reddit.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.renren {
+  background: url("../img/webicon-renren-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.renren.large {
+  background: url("../img/webicon-renren.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.renren.small {
+  background: url("../img/webicon-renren-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.renren {
+  background: url("../img/webicon-renren.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.rss {
+  background: url("../img/webicon-rss-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.rss.large {
+  background: url("../img/webicon-rss.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.rss.small {
+  background: url("../img/webicon-rss-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.rss {
+  background: url("../img/webicon-rss.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.skitch {
+  background: url("../img/webicon-skitch-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.skitch.large {
+  background: url("../img/webicon-skitch.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.skitch.small {
+  background: url("../img/webicon-skitch-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.skitch {
+  background: url("../img/webicon-skitch.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.skype {
+  background: url("../img/webicon-skype-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.skype.large {
+  background: url("../img/webicon-skype.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.skype.small {
+  background: url("../img/webicon-skype-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.skype {
+  background: url("../img/webicon-skype.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.soundcloud {
+  background: url("../img/webicon-soundcloud-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.soundcloud.large {
+  background: url("../img/webicon-soundcloud.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.soundcloud.small {
+  background: url("../img/webicon-soundcloud-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.soundcloud {
+  background: url("../img/webicon-soundcloud.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.spotify {
+  background: url("../img/webicon-spotify-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.spotify.large {
+  background: url("../img/webicon-spotify.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.spotify.small {
+  background: url("../img/webicon-spotify-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.spotify {
+  background: url("../img/webicon-spotify.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.stackoverflow {
+  background: url("../img/webicon-stackoverflow-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.stackoverflow.large {
+  background: url("../img/webicon-stackoverflow.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.stackoverflow.small {
+  background: url("../img/webicon-stackoverflow-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.stackoverflow {
+  background: url("../img/webicon-stackoverflow.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.stumbleupon {
+  background: url("../img/webicon-stumbleupon-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.stumbleupon.large {
+  background: url("../img/webicon-stumbleupon.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.stumbleupon.small {
+  background: url("../img/webicon-stumbleupon-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.stumbleupon {
+  background: url("../img/webicon-stumbleupon.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.svtle {
+  background: url("../img/webicon-svtle-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.svtle.large {
+  background: url("../img/webicon-svtle.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.svtle.small {
+  background: url("../img/webicon-svtle-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.svtle {
+  background: url("../img/webicon-svtle.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.svn {
+  background: url("../img/webicon-svn-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.svn.large {
+  background: url("../img/webicon-svn.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.svn.small {
+  background: url("../img/webicon-svn-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.svn {
+  background: url("../img/webicon-svn.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.tent {
+  background: url("../img/webicon-tent-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.tent.large {
+  background: url("../img/webicon-tent.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.tent.small {
+  background: url("../img/webicon-tent-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.tent {
+  background: url("../img/webicon-tent.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.tripadvisor {
+  background: url("../img/webicon-tripadvisor-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.tripadvisor.large {
+  background: url("../img/webicon-tripadvisor.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.tripadvisor.small {
+  background: url("../img/webicon-tripadvisor-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.tripadvisor {
+  background: url("../img/webicon-tripadvisor.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.tumblr {
+  background: url("../img/webicon-tumblr-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.tumblr.large {
+  background: url("../img/webicon-tumblr.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.tumblr.small {
+  background: url("../img/webicon-tumblr-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.tumblr {
+  background: url("../img/webicon-tumblr.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.twitter {
+  background: url("../img/webicon-twitter-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.twitter.large {
+  background: url("../img/webicon-twitter.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.twitter.small {
+  background: url("../img/webicon-twitter-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.twitter {
+  background: url("../img/webicon-twitter.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.viadeo {
+  background: url("../img/webicon-viadeo-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.viadeo.large {
+  background: url("../img/webicon-viadeo.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.viadeo.small {
+  background: url("../img/webicon-viadeo-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.viadeo {
+  background: url("../img/webicon-viadeo.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.vine {
+  background: url("../img/webicon-vine-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.vine.large {
+  background: url("../img/webicon-vine.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.vine.small {
+  background: url("../img/webicon-vine-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.vine {
+  background: url("../img/webicon-vine.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.vimeo {
+  background: url("../img/webicon-vimeo-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.vimeo.large {
+  background: url("../img/webicon-vimeo.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.vimeo.small {
+  background: url("../img/webicon-vimeo-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.vimeo {
+  background: url("../img/webicon-vimeo.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.weibo {
+  background: url("../img/webicon-weibo-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.weibo.large {
+  background: url("../img/webicon-weibo.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.weibo.small {
+  background: url("../img/webicon-weibo-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.weibo {
+  background: url("../img/webicon-weibo.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.windows {
+  background: url("../img/webicon-windows-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.windows.large {
+  background: url("../img/webicon-windows.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.windows.small {
+  background: url("../img/webicon-windows-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.windows {
+  background: url("../img/webicon-windows.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.wordpress {
+  background: url("../img/webicon-wordpress-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.wordpress.large {
+  background: url("../img/webicon-wordpress.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.wordpress.small {
+  background: url("../img/webicon-wordpress-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.wordpress {
+  background: url("../img/webicon-wordpress.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.xing {
+  background: url("../img/webicon-xing-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.xing.large {
+  background: url("../img/webicon-xing.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.xing.small {
+  background: url("../img/webicon-xing-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.xing {
+  background: url("../img/webicon-xing.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.yahoo {
+  background: url("../img/webicon-yahoo-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.yahoo.large {
+  background: url("../img/webicon-yahoo.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.yahoo.small {
+  background: url("../img/webicon-yahoo-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.yahoo {
+  background: url("../img/webicon-yahoo.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.yelp {
+  background: url("../img/webicon-yelp-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.yelp.large {
+  background: url("../img/webicon-yelp.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.yelp.small {
+  background: url("../img/webicon-yelp-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.yelp {
+  background: url("../img/webicon-yelp.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.youtube {
+  background: url("../img/webicon-youtube-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.youtube.large {
+  background: url("../img/webicon-youtube.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.youtube.small {
+  background: url("../img/webicon-youtube-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.youtube {
+  background: url("../img/webicon-youtube.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.youversion {
+  background: url("../img/webicon-youversion-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.youversion.large {
+  background: url("../img/webicon-youversion.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.youversion.small {
+  background: url("../img/webicon-youversion-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.youversion {
+  background: url("../img/webicon-youversion.svg"); }
+
+/* line 21, ../sass/webicons.scss */
+.no-svg .webicon.zerply {
+  background: url("../img/webicon-zerply-m.png"); }
+
+/* line 22, ../sass/webicons.scss */
+.no-svg .webicon.zerply.large {
+  background: url("../img/webicon-zerply.png"); }
+
+/* line 23, ../sass/webicons.scss */
+.no-svg .webicon.zerply.small {
+  background: url("../img/webicon-zerply-s.png"); }
+
+/* line 24, ../sass/webicons.scss */
+.svg .webicon.zerply {
+  background: url("../img/webicon-zerply.svg"); }
+
+@font-face {
+  font-family: "yore_script_regular";
+  src: url("../font/yore_script-webfont.eot");
+  src: url("../font/yore_script-webfont.eot?#iefix") format("embedded-opentype"), url("../font/yore_script-webfont.woff") format("woff"), url("../font/yore_script-webfont.ttf") format("truetype"), url("../font/yore_script-webfont.svg#yore_script_regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 13, ../sass/partials/_base.scss */
+body.jm {
+  font-family: "Swanky and Moo Moo", cursive;
+  font-size: 18px;
+  line-height: 1.4;
+  background: #fff9ed;
+  color: #7d9d98; }
+
+/* line 21, ../sass/partials/_base.scss */
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.45; }
+
+/* line 24, ../sass/partials/_base.scss */
+h1 {
+  font-size: 4em; }
+
+/* line 25, ../sass/partials/_base.scss */
+h2 {
+  font-size: 3em; }
+
+/* line 27, ../sass/partials/_base.scss */
+.footer {
+  text-align: center;
+  vertical-align: middle;
+  background: #7d9d98;
+  color: #f7e4be;
+  height: 45px;
+  line-height: 45px; }
+
+/* line 36, ../sass/partials/_base.scss */
+.content {
+  height: 600px; }
+  /* line 39, ../sass/partials/_base.scss */
+  .content.ourstory {
+    background: rgba(247, 228, 190, 0.8);
+    font-family: "yore_script_regular", serif;
+    font-size: 5em;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    text-align: center;
+    line-height: 600px; }
+  /* line 51, ../sass/partials/_base.scss */
+  .content.ourstory::after {
+    content: "";
+    background: url("../img/paper_texture_brown.jpg");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; }
+  /* line 62, ../sass/partials/_base.scss */
+  .content.weddingparty {
+    background: rgba(179, 129, 132, 0.8);
+    font-family: "yore_script_regular", serif;
+    overflow: hidden;
+    display: block;
+    position: relative; }
+  /* line 72, ../sass/partials/_base.scss */
+  .content.weddingparty::after {
+    content: "";
+    background: url("../img/paper_texture_brown.jpg");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; }
+  /* line 83, ../sass/partials/_base.scss */
+  .content.gettingthere {
+    background: rgba(247, 228, 190, 0.8);
+    font-family: "yore_script_regular", serif;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    text-align: center; }
+  /* line 94, ../sass/partials/_base.scss */
+  .content.gettingthere::after {
+    content: "";
+    background: url("../img/paper_texture_brown.jpg");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; }
+  /* line 105, ../sass/partials/_base.scss */
+  .content.rsvp {
+    background: rgba(213, 151, 142, 0.8);
+    font-family: "yore_script_regular", serif;
+    overflow: hidden;
+    display: block;
+    position: relative; }
+  /* line 115, ../sass/partials/_base.scss */
+  .content.rsvp::after {
+    content: "";
+    background: url("../img/paper_texture_brown.jpg");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; }
+  /* line 126, ../sass/partials/_base.scss */
+  .content.photos {
+    background: rgba(247, 228, 190, 0.8);
+    font-family: "yore_script_regular", serif;
+    overflow: hidden;
+    display: block;
+    position: relative; }
+  /* line 136, ../sass/partials/_base.scss */
+  .content.photos::after {
+    content: "";
+    background: url("../img/paper_texture_brown.jpg");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; }
+
+/* line 149, ../sass/partials/_base.scss */
+.contain-to-grid {
+  background: #fff9ed; }
+
+/* line 153, ../sass/partials/_base.scss */
+.top-bar .name h1 a {
+  font-family: "Swanky and Moo Moo", cursive;
+  color: #f7e4be;
+  font-size: 1em; }
+
+/* line 159, ../sass/partials/_base.scss */
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #7d9d98; }
+  /* line 162, ../sass/partials/_base.scss */
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background: #d5978e;
+    color: #f7e4be; }
+
+/* line 168, ../sass/partials/_base.scss */
+.top-bar-section li a:hover {
+  background: #d5978e; }
+
+/* line 172, ../sass/partials/_base.scss */
+.top-bar {
+  background: #7d9d98; }
+
+/* line 176, ../sass/partials/_base.scss */
+.top-bar-section .left {
+  background: #7d9d98; }
+  /* line 179, ../sass/partials/_base.scss */
+  .top-bar-section .left .jo {
+    color: #f7e4be; }
+
+/* line 185, ../sass/partials/_base.scss */
+ul.right li a {
+  color: #f7e4be;
+  font-family: "Swanky and Moo Moo", cursive;
+  font-size: 1em; }
+
+/* line 191, ../sass/partials/_base.scss */
+.top-bar.expanded .title-area {
+  background: #7d9d98; }
+
+/* line 195, ../sass/partials/_base.scss */
+.top-bar .toggle-topbar.menu-icon a {
+  color: #f7e4be; }
+  /* line 198, ../sass/partials/_base.scss */
+  .top-bar .toggle-topbar.menu-icon a::after {
+    -webkit-box-shadow: 1px 10px 1px 1px #f7e4be, 1px 16px 1px 1px #f7e4be, 1px 22px 1px 1px #f7e4be;
+    box-shadow: 0 10px 0 1px #f7e4be, 0 16px 0 1px #f7e4be, 0 22px 0 1px #f7e4be; }
+
+/* Flexible iFrame */
+/* line 4, ../sass/partials/_layout.scss */
+.flexible-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+/* line 14, ../sass/partials/_layout.scss */
+.flexible-container iframe,
+.flexible-container object,
+.flexible-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/*
+
+*{
+@include bs(border-box);
+}
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+header[role="banner"],footer[role="contentinfo"] {
+    width: 100%;
+    display: block;
+}
+nav[role="navigation"] {
+    width: 25%;
+    float: left;
+}
+.main-content {
+    width: 70%;
+    float: right;
+}
+footer[role="contentinfo"] {
+    clear: both;
+}
+
+*/
+/*
+
+.chapter-summary { 
+
+  a{
+    display: block;
+    padding: .5em;
+    color: $color10;
+    opacity: .7;
+    border: none;
+    
+    &:hover {
+      opacity: 1; 
+    }
+    &:visited {
+      opacity: .9;
+    } 
+
+    b{
+      display: block;
+    }
+
+    span {
+      display: block;
+      font-size: .8em;
+    } 
+  }
+}
+
+.chapter-summary {
+   
+  border-bottom: 2px dotted;
+     
+    &:last-child {
+       border: none;
+    }
+}
+
+.testimonial {
+     background-color: #eee;
+     border-top: 2px solid #ddd;
+     border-bottom: 2px solid #ddd;
+     padding: 1em 2em;
+     > img {
+       display: inline-block;
+      width: 17%; 
+    }
+    blockquote {
+       margin: 0 0 0 3%;
+       padding: 0 .5em;
+       width: 76%;
+       font-family: $blockquote;
+       font-size: 2.4em;
+       font-style:italic;
+       display: inline-block;
+       vertical-align: top;
+       footer {
+         font-size: .6em;
+         border-top: 2px dotted #ddd;
+         margin: 20px 0 0 0;
+         padding: 10px 0 0 0;} 
+    }
+    blockquote.small {
+    font-size: .9em;
+    } 
+}
+
+*/

@@ -1,0 +1,313 @@
+@font-face {
+    font-family: "yore_script_regular";
+    src: url('../font/yore_script-webfont.eot');
+    src: url('../font/yore_script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/yore_script-webfont.woff') format('woff'),
+         url('../font/yore_script-webfont.ttf') format('truetype'),
+         url('../font/yore_script-webfont.svg#yore_script_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "TravelingTypewriter";
+    src: url('../font/TravelingTypewriter.ttf');
+    src: url('../font/TravelingTypewriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body.jm{
+  //font-family : "Swanky and Moo Moo", cursive;
+  font-family : "TravelingTypewriter", serif;
+  font-size: 18px;
+  line-height: 1.4;
+  background: url("../img/sand.jpg");
+  //color: $color3;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+ line-height: 1.45;
+ font-family : "TravelingTypewriter", serif;
+}
+h1 { font-size: 4em; }
+h2 { font-size: 3em; }
+
+.footer{
+  text-align: center;
+  vertical-align: middle;
+  background: url("../img/olive.jpg");
+  color : $color19;
+  height: 45px; 
+  line-height: 45px;
+}
+
+.content{
+  
+    //height : 600px;
+    font-family : "TravelingTypewriter", serif;
+
+     &.ourstory {
+        //background : $color13;
+        font-family : "TravelingTypewriter", serif;
+        font-size: 3em;
+        color: $color18;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        text-align: center;
+        line-height: 300px;
+     }
+
+      &.ourstory::after {
+        content: "";
+        background: url("../img/sand.jpg");
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+     }
+
+     &.weddingparty {      
+        //background : $color14;
+        font-family : "TravelingTypewriter", serif;
+        //font-size: 8em;
+        color: $color18;
+        overflow: hidden; 
+        display: block;
+        position: relative; 
+     }
+
+     &.weddingparty::after {
+        content: "";
+        background: url("../img/sand.jpg");
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;     
+     }
+
+     &.gettingthere{
+        //background: $color13; 
+        font-family : "TravelingTypewriter", serif;
+        //font-size: 8em;
+        color: $color18;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        text-align: center;
+     }
+
+     &.gettingthere::after {
+        content: "";
+        background: url("../img/sand.jpg");
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;     
+     }
+
+     &.accom{
+        //background: $color15;
+        font-family : "TravelingTypewriter", serif;
+        //font-size: 8em;
+        color: $color18;
+        overflow: hidden; 
+        display: block;
+        position: relative;  
+        text-align: center;
+     }
+
+     &.accom::after {
+        content: "";
+        background: url("../img/sand.jpg");
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;     
+     }
+
+     &.rsvp{
+        //background: $color15;
+        font-family : "TravelingTypewriter", serif;
+        //font-size: 8em;
+        color: $color18;
+        overflow: hidden; 
+        display: block;
+        position: relative;  
+     }
+
+     &.rsvp::after {
+        content: "";
+        background: url("../img/sand.jpg");
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;     
+     }
+
+     &.photos{
+        //background: $color13; 
+        font-family : "TravelingTypewriter", serif;
+        //font-size: 8em;
+        color: $color18;
+        overflow: hidden;
+        display: block;
+        position: relative;
+     }
+
+     &.photos::after {
+        content: "";
+        background: url("../img/sand.jpg");       
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;     
+     }
+
+     .panel.wp{
+        background: url("../img/olive.jpg");
+        color: $color19;
+        
+        p{
+          color: $color19;
+        }
+        h5{
+          color: $color19;
+        }
+     }
+
+}
+
+.contain-to-grid {
+  background: url("../img/sand.jpg");
+}
+
+.top-bar .name h1 a {
+  font-family : "Swanky and Moo Moo", cursive;
+  color: $color19;
+  font-size: 1em;
+  display: inline;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: url("../img/olive.jpg");
+
+  &:hover{
+    background: url("../img/fern.jpg");
+    color: $color19; 
+  }
+}
+
+.top-bar-section li a:hover {
+  background: url("../img/fern.jpg");
+}
+
+.top-bar { 
+  background: url("../img/olive.jpg"); 
+}
+
+.top-bar-section .left {
+  background: url("../img/olive.jpg"); 
+
+  .jo{
+    color : $color19;
+  }
+
+}
+
+ul.right li a {
+  color : $color19;
+  font-family : "Swanky and Moo Moo", cursive;
+  font-size: 1em;
+}
+
+.top-bar.expanded .title-area {
+background: url("../img/olive.jpg");
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+  color : $color19;
+
+    &::after{
+      -webkit-box-shadow: 1px 10px 1px 1px $color19, 1px 16px 1px 1px $color19, 1px 22px 1px 1px $color19;
+      box-shadow: 0 10px 0 1px $color19, 0 16px 0 1px $color19, 0 22px 0 1px $color19;
+    }
+
+}
+
+li.wp-list{
+  width:100%; 
+}
+
+.accordion dd > a{
+
+  color: $color19;
+  background: url("../img/olive.jpg");
+  font-family : "TravelingTypewriter", serif;
+
+  &:hover{
+    background: url("../img/fern.jpg");
+    color: $color18; 
+  }
+
+  &:active{
+    background: url("../img/fern.jpg");
+    color: $color18; 
+  }
+
+}
+
+.accordion dd.active > a{
+    background: url("../img/fern.jpg");
+    color: $color18;  
+}
+
+.accordion .content.active{
+    background: url("../img/fern.jpg");
+    color: $color18; 
+}
+
+.tabs dd > a {
+    
+    background: url("../img/olive.jpg");
+    color: $color19;
+    font-family : "TravelingTypewriter", serif;
+
+  &:hover{
+    background: url("../img/sand.jpg");
+    color: $color18; 
+  }
+
+}
+
+.tabs dd.active > a {
+    background: url("../img/olive.jpg");
+    color: $color19;
+
+    &:hover{
+      background: url("../img/sand.jpg");
+      color: $color18; 
+  }
+}
+
+
+
+
+
+
+   
