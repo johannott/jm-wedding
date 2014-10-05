@@ -1,1 +1,1 @@
-<h1>You have sent your RSVP! Thanks</h1>
+<h3>You have sent your RSVP! Thanks</h3>

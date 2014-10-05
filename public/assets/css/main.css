@@ -1280,18 +1280,19 @@ body.jm {
 
 /* line 31, ../../../app/assets/sass/partials/_base.scss */
 h1, h2, h3, h4, h5, h6, p, a {
+  color: rgba(108, 112, 94, 0.8);
   line-height: 1.45;
   font-family: "TravelingTypewriter", serif; }
 
-/* line 35, ../../../app/assets/sass/partials/_base.scss */
+/* line 36, ../../../app/assets/sass/partials/_base.scss */
 h1 {
   font-size: 4em; }
 
-/* line 36, ../../../app/assets/sass/partials/_base.scss */
+/* line 37, ../../../app/assets/sass/partials/_base.scss */
 h2 {
   font-size: 3em; }
 
-/* line 38, ../../../app/assets/sass/partials/_base.scss */
+/* line 39, ../../../app/assets/sass/partials/_base.scss */
 .footer {
   text-align: center;
   vertical-align: middle;
@@ -1300,10 +1301,10 @@ h2 {
   height: 45px;
   line-height: 45px; }
 
-/* line 47, ../../../app/assets/sass/partials/_base.scss */
+/* line 48, ../../../app/assets/sass/partials/_base.scss */
 .content {
   font-family: "TravelingTypewriter", serif; }
-  /* line 52, ../../../app/assets/sass/partials/_base.scss */
+  /* line 53, ../../../app/assets/sass/partials/_base.scss */
   .content.ourstory {
     font-family: "TravelingTypewriter", serif;
     font-size: 3em;
@@ -1313,7 +1314,7 @@ h2 {
     position: relative;
     text-align: center;
     line-height: 300px; }
-  /* line 64, ../../../app/assets/sass/partials/_base.scss */
+  /* line 65, ../../../app/assets/sass/partials/_base.scss */
   .content.ourstory::after {
     content: "";
     background: url("../img/sand.jpg");
@@ -1323,14 +1324,14 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -1; }
-  /* line 75, ../../../app/assets/sass/partials/_base.scss */
+  /* line 76, ../../../app/assets/sass/partials/_base.scss */
   .content.weddingparty {
     font-family: "TravelingTypewriter", serif;
     color: rgba(108, 112, 94, 0.8);
     overflow: hidden;
     display: block;
     position: relative; }
-  /* line 85, ../../../app/assets/sass/partials/_base.scss */
+  /* line 86, ../../../app/assets/sass/partials/_base.scss */
   .content.weddingparty::after {
     content: "";
     background: url("../img/sand.jpg");
@@ -1340,7 +1341,7 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -1; }
-  /* line 96, ../../../app/assets/sass/partials/_base.scss */
+  /* line 97, ../../../app/assets/sass/partials/_base.scss */
   .content.gettingthere {
     font-family: "TravelingTypewriter", serif;
     color: rgba(108, 112, 94, 0.8);
@@ -1348,7 +1349,7 @@ h2 {
     display: block;
     position: relative;
     text-align: center; }
-  /* line 107, ../../../app/assets/sass/partials/_base.scss */
+  /* line 108, ../../../app/assets/sass/partials/_base.scss */
   .content.gettingthere::after {
     content: "";
     background: url("../img/sand.jpg");
@@ -1358,7 +1359,7 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -1; }
-  /* line 118, ../../../app/assets/sass/partials/_base.scss */
+  /* line 119, ../../../app/assets/sass/partials/_base.scss */
   .content.accom {
     font-family: "TravelingTypewriter", serif;
     color: rgba(108, 112, 94, 0.8);
@@ -1366,7 +1367,7 @@ h2 {
     display: block;
     position: relative;
     text-align: center; }
-  /* line 129, ../../../app/assets/sass/partials/_base.scss */
+  /* line 130, ../../../app/assets/sass/partials/_base.scss */
   .content.accom::after {
     content: "";
     background: url("../img/sand.jpg");
@@ -1376,14 +1377,26 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -1; }
-  /* line 140, ../../../app/assets/sass/partials/_base.scss */
+  /* line 141, ../../../app/assets/sass/partials/_base.scss */
   .content.rsvp {
+    background: url("../img/olive.jpg");
     font-family: "TravelingTypewriter", serif;
-    color: rgba(108, 112, 94, 0.8);
+    color: rgba(213, 210, 196, 0.8);
     overflow: hidden;
     display: block;
     position: relative; }
-  /* line 150, ../../../app/assets/sass/partials/_base.scss */
+    /* line 152, ../../../app/assets/sass/partials/_base.scss */
+    .content.rsvp h1, .content.rsvp h2, .content.rsvp h3, .content.rsvp h4, .content.rsvp h5 {
+      color: rgba(213, 210, 196, 0.8); }
+    /* line 156, ../../../app/assets/sass/partials/_base.scss */
+    .content.rsvp .rsvpButton {
+      background: url("../img/sand.jpg");
+      color: rgba(108, 112, 94, 0.8); }
+      /* line 160, ../../../app/assets/sass/partials/_base.scss */
+      .content.rsvp .rsvpButton:hover {
+        background: url("../img/fern.jpg");
+        color: rgba(213, 210, 196, 0.8); }
+  /* line 168, ../../../app/assets/sass/partials/_base.scss */
   .content.rsvp::after {
     content: "";
     background: url("../img/sand.jpg");
@@ -1393,14 +1406,14 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -1; }
-  /* line 161, ../../../app/assets/sass/partials/_base.scss */
+  /* line 179, ../../../app/assets/sass/partials/_base.scss */
   .content.photos {
     font-family: "TravelingTypewriter", serif;
     color: rgba(108, 112, 94, 0.8);
     overflow: hidden;
     display: block;
     position: relative; }
-  /* line 171, ../../../app/assets/sass/partials/_base.scss */
+  /* line 189, ../../../app/assets/sass/partials/_base.scss */
   .content.photos::after {
     content: "";
     background: url("../img/sand.jpg");
@@ -1410,115 +1423,123 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -1; }
-  /* line 182, ../../../app/assets/sass/partials/_base.scss */
+  /* line 200, ../../../app/assets/sass/partials/_base.scss */
   .content .panel.wp {
     background: url("../img/olive.jpg");
     color: rgba(213, 210, 196, 0.8); }
-    /* line 186, ../../../app/assets/sass/partials/_base.scss */
+    /* line 204, ../../../app/assets/sass/partials/_base.scss */
     .content .panel.wp p {
       color: rgba(213, 210, 196, 0.8); }
-    /* line 189, ../../../app/assets/sass/partials/_base.scss */
+    /* line 207, ../../../app/assets/sass/partials/_base.scss */
     .content .panel.wp h5 {
       color: rgba(213, 210, 196, 0.8); }
 
-/* line 196, ../../../app/assets/sass/partials/_base.scss */
+/* line 214, ../../../app/assets/sass/partials/_base.scss */
 .contain-to-grid {
   background: url("../img/sand.jpg"); }
 
-/* line 200, ../../../app/assets/sass/partials/_base.scss */
+/* line 218, ../../../app/assets/sass/partials/_base.scss */
 .top-bar .name h1 a {
   font-family: "Swanky and Moo Moo", cursive;
   color: rgba(213, 210, 196, 0.8);
   font-size: 1em;
   display: inline; }
 
-/* line 207, ../../../app/assets/sass/partials/_base.scss */
+/* line 225, ../../../app/assets/sass/partials/_base.scss */
 .top-bar-section li:not(.has-form) a:not(.button) {
   background: url("../img/olive.jpg"); }
-  /* line 210, ../../../app/assets/sass/partials/_base.scss */
+  /* line 228, ../../../app/assets/sass/partials/_base.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background: url("../img/fern.jpg");
     color: rgba(213, 210, 196, 0.8); }
 
-/* line 216, ../../../app/assets/sass/partials/_base.scss */
+/* line 234, ../../../app/assets/sass/partials/_base.scss */
 .top-bar-section li a:hover {
   background: url("../img/fern.jpg"); }
 
-/* line 220, ../../../app/assets/sass/partials/_base.scss */
+/* line 238, ../../../app/assets/sass/partials/_base.scss */
 .top-bar {
   background: url("../img/olive.jpg"); }
 
-/* line 224, ../../../app/assets/sass/partials/_base.scss */
+/* line 242, ../../../app/assets/sass/partials/_base.scss */
 .top-bar-section .left {
   background: url("../img/olive.jpg"); }
-  /* line 227, ../../../app/assets/sass/partials/_base.scss */
+  /* line 245, ../../../app/assets/sass/partials/_base.scss */
   .top-bar-section .left .jo {
     color: rgba(213, 210, 196, 0.8); }
 
-/* line 233, ../../../app/assets/sass/partials/_base.scss */
+/* line 251, ../../../app/assets/sass/partials/_base.scss */
 ul.right li a {
   color: rgba(213, 210, 196, 0.8);
   font-family: "Swanky and Moo Moo", cursive;
   font-size: 1em; }
 
-/* line 239, ../../../app/assets/sass/partials/_base.scss */
+/* line 257, ../../../app/assets/sass/partials/_base.scss */
 .top-bar.expanded .title-area {
   background: url("../img/olive.jpg"); }
 
-/* line 243, ../../../app/assets/sass/partials/_base.scss */
+/* line 261, ../../../app/assets/sass/partials/_base.scss */
 .top-bar .toggle-topbar.menu-icon a {
   color: rgba(213, 210, 196, 0.8); }
-  /* line 246, ../../../app/assets/sass/partials/_base.scss */
+  /* line 264, ../../../app/assets/sass/partials/_base.scss */
   .top-bar .toggle-topbar.menu-icon a::after {
     -webkit-box-shadow: 1px 10px 1px 1px rgba(213, 210, 196, 0.8), 1px 16px 1px 1px rgba(213, 210, 196, 0.8), 1px 22px 1px 1px rgba(213, 210, 196, 0.8);
     box-shadow: 0 10px 0 1px rgba(213, 210, 196, 0.8), 0 16px 0 1px rgba(213, 210, 196, 0.8), 0 22px 0 1px rgba(213, 210, 196, 0.8); }
 
-/* line 253, ../../../app/assets/sass/partials/_base.scss */
+/* line 271, ../../../app/assets/sass/partials/_base.scss */
 li.wp-list {
   width: 100%; }
 
-/* line 257, ../../../app/assets/sass/partials/_base.scss */
+/* line 275, ../../../app/assets/sass/partials/_base.scss */
 .accordion dd > a {
   color: rgba(213, 210, 196, 0.8);
   background: url("../img/olive.jpg");
   font-family: "TravelingTypewriter", serif; }
-  /* line 263, ../../../app/assets/sass/partials/_base.scss */
+  /* line 281, ../../../app/assets/sass/partials/_base.scss */
   .accordion dd > a:hover {
     background: url("../img/fern.jpg");
     color: rgba(108, 112, 94, 0.8); }
-  /* line 268, ../../../app/assets/sass/partials/_base.scss */
+  /* line 286, ../../../app/assets/sass/partials/_base.scss */
   .accordion dd > a:active {
     background: url("../img/fern.jpg");
     color: rgba(108, 112, 94, 0.8); }
 
-/* line 275, ../../../app/assets/sass/partials/_base.scss */
+/* line 293, ../../../app/assets/sass/partials/_base.scss */
 .accordion dd.active > a {
   background: url("../img/fern.jpg");
   color: rgba(108, 112, 94, 0.8); }
 
-/* line 280, ../../../app/assets/sass/partials/_base.scss */
+/* line 298, ../../../app/assets/sass/partials/_base.scss */
 .accordion .content.active {
   background: url("../img/fern.jpg");
   color: rgba(108, 112, 94, 0.8); }
 
-/* line 285, ../../../app/assets/sass/partials/_base.scss */
+/* line 303, ../../../app/assets/sass/partials/_base.scss */
 .tabs dd > a {
   background: url("../img/olive.jpg");
   color: rgba(213, 210, 196, 0.8);
   font-family: "TravelingTypewriter", serif; }
-  /* line 291, ../../../app/assets/sass/partials/_base.scss */
+  /* line 309, ../../../app/assets/sass/partials/_base.scss */
   .tabs dd > a:hover {
     background: url("../img/sand.jpg");
     color: rgba(108, 112, 94, 0.8); }
 
-/* line 298, ../../../app/assets/sass/partials/_base.scss */
+/* line 316, ../../../app/assets/sass/partials/_base.scss */
 .tabs dd.active > a {
   background: url("../img/olive.jpg");
   color: rgba(213, 210, 196, 0.8); }
-  /* line 302, ../../../app/assets/sass/partials/_base.scss */
+  /* line 320, ../../../app/assets/sass/partials/_base.scss */
   .tabs dd.active > a:hover {
     background: url("../img/sand.jpg");
     color: rgba(108, 112, 94, 0.8); }
+
+/* line 326, ../../../app/assets/sass/partials/_base.scss */
+img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: gray;
+  filter: grayscale(100%);
+  filter: url(desaturate.svg#greyscale); }
 
 /* Flexible iFrame */
 /* line 4, ../../../app/assets/sass/partials/_layout.scss */

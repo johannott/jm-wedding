@@ -23,10 +23,10 @@ class RSVPController extends \BaseController {
             $rsvp->email = Input::get('email');
             $rsvp->save();
 
-            return Redirect::to('/dashboard')->with('message', 'Thanks for your RSVP!');
+            return Redirect::to('/dashboard/#rsvp')->with('message', 'Thanks for your RSVP!');
         } else {
             // validation has failed, display error messages
-            return Redirect::to('/')->with('message', 'The following errors occurred')->withErrors($validator)->withInput();
+            return Redirect::to('/#rsvp')->with('message', 'The following errors occurred')->withErrors($validator)->withInput();
         }
     }
 

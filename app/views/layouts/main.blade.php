@@ -62,6 +62,7 @@
   <div class='content weddingparty'>
       <div class="panel wp large-12 columns">
           <ul class="clearing-thumbs small-block-grid-2 medium-block-grid-3 large-block-grid-4" data-clearing>
+              <li><a class="th" href="/assets/img/wed/JM.jpg"><img src="/assets/img/wed/JM.jpg"></a></li>
               <li><a class="th" href="/assets/img/wed/Johann.jpg"><img src="/assets/img/wed/Johann.jpg"></a></li>
               <li><a class="th" href="/assets/img/wed/Maeve.jpg"><img src="/assets/img/wed/Maeve.jpg"></a></li>
               <li><a class="th" href="/assets/img/wed/Corm.jpg"><img src="/assets/img/wed/Corm.jpg"></a></li>
@@ -72,6 +73,7 @@
               <li><a class="th" href="assets/img/wed/Claire.jpg"><img src="assets/img/wed/Claire.jpg"></a></li>
               <li><a class="th" href="assets/img/wed/Greg.jpg"><img src="assets/img/wed/Greg.jpg"></a></li>
               <li><a class="th" href="assets/img/wed/Lisa.jpg"><img src="assets/img/wed/Lisa.jpg"></a></li>
+              <li><a class="th" href="assets/img/wed/Henry.jpg"><img src="assets/img/wed/Henry.jpg"></a></li>
           </ul>
       </div>
 </section>
@@ -104,47 +106,10 @@
 </section>
 
 <section class="row" data-scroll-index='4'>
-  <div class='content rsvp large-12 small-12 columns'>
+  <div id="rsvp" class='content rsvp large-12 small-12 columns'>
   
-   <div class="small-6 large-6">
-     <h3>RSVP</h3>
-
-      <h5>Tell us if your coming!</h5>
-
+   <div class="large-12 small-12 columns">
       {{ $content }}
-      {{--<form>--}}
-        {{--<div class="row">--}}
-          {{--<div class="small-8">--}}
-            {{--<div class="row">--}}
-              {{--<div class="small-3 columns">--}}
-                {{--<label for="right-label" class="right">Guest 1</label>--}}
-              {{--</div>--}}
-              {{--<div class="small-9 columns">--}}
-                {{--<input type="text" id="right-label" placeholder="Inline Text Input">--}}
-              {{--</div>--}}
-              {{--<div class="small-3 columns">--}}
-                {{--<label for="right-label" class="right">Guest 2</label>--}}
-              {{--</div>--}}
-              {{--<div class="small-9 columns">--}}
-                {{--<input type="text" id="right-label" placeholder="Inline Text Input">--}}
-              {{--</div>--}}
-              {{--<div class="small-3 columns">--}}
-                {{--<label for="right-label" class="right">Email</label>--}}
-              {{--</div>--}}
-              {{--<div class="small-9 columns">--}}
-                {{--<input type="text" id="right-label" placeholder="Inline Text Input">--}}
-              {{--</div>--}}
-               {{--<div class="small-3 columns">--}}
-                {{--<label for="right-label" class="right">Password</label>--}}
-              {{--</div>--}}
-              {{--<div class="small-9 columns">--}}
-                {{--<input type="text" id="right-label" placeholder="Inline Text Input">--}}
-              {{--</div>--}}
-            {{--</div>--}}
-          {{--</div>--}}
-        {{--</div>--}}
-      {{--</form>  --}}
-
      </div>   
         
   </div>

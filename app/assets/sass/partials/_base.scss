@@ -29,6 +29,7 @@ body.jm{
 }
 
 h1,h2,h3,h4,h5,h6,p,a{
+ color: $color18;
  line-height: 1.45;
  font-family : "TravelingTypewriter", serif;
 }
@@ -139,12 +140,29 @@ h2 { font-size: 3em; }
 
      &.rsvp{
         //background: $color15;
+        background: url("../img/olive.jpg");
         font-family : "TravelingTypewriter", serif;
         //font-size: 8em;
-        color: $color18;
+        color: $color19;
         overflow: hidden; 
         display: block;
-        position: relative;  
+        position: relative; 
+
+
+        h1, h2, h3, h4, h5{
+           color: $color19;
+        } 
+
+        .rsvpButton{
+          background: url("../img/sand.jpg");
+          color: $color18;
+
+          &:hover{
+            background: url("../img/fern.jpg");
+            color: $color19; 
+          }
+        }
+
      }
 
      &.rsvp::after {
@@ -304,6 +322,13 @@ li.wp-list{
       color: $color18; 
   }
 }
+
+img{
+-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+filter: gray; filter: grayscale(100%);
+filter: url(desaturate.svg#greyscale);
+}
+
 
 
 
