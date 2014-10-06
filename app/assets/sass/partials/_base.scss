@@ -149,7 +149,7 @@ h2 { font-size: 3em; }
         position: relative; 
 
 
-        h1, h2, h3, h4, h5{
+        h1, h2, h3, h4, h5, p, label{
            color: $color19;
         } 
 
@@ -329,6 +329,9 @@ filter: gray; filter: grayscale(100%);
 filter: url(desaturate.svg#greyscale);
 }
 
+.underline{
+  text-decoration: underline;
+}
 
 
 

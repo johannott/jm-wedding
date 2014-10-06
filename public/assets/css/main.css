@@ -1386,7 +1386,7 @@ h2 {
     display: block;
     position: relative; }
     /* line 152, ../../../app/assets/sass/partials/_base.scss */
-    .content.rsvp h1, .content.rsvp h2, .content.rsvp h3, .content.rsvp h4, .content.rsvp h5 {
+    .content.rsvp h1, .content.rsvp h2, .content.rsvp h3, .content.rsvp h4, .content.rsvp h5, .content.rsvp p, .content.rsvp label {
       color: rgba(213, 210, 196, 0.8); }
     /* line 156, ../../../app/assets/sass/partials/_base.scss */
     .content.rsvp .rsvpButton {
@@ -1540,6 +1540,10 @@ img {
   filter: gray;
   filter: grayscale(100%);
   filter: url(desaturate.svg#greyscale); }
+
+/* line 332, ../../../app/assets/sass/partials/_base.scss */
+.underline {
+  text-decoration: underline; }
 
 /* Flexible iFrame */
 /* line 4, ../../../app/assets/sass/partials/_layout.scss */
