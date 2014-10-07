@@ -117,7 +117,7 @@
  
 <section class="row" data-scroll-index='5'>
   <div class='content photos'>
-    
+    <h2>Photos of our special day! Coming soon...</h2>
   </div>
 </section>
 

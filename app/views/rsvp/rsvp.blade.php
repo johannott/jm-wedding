@@ -1,7 +1,11 @@
 {{ Form::open(array('url'=>'/post')) }}
 
-    <h3>Maeve and Johann</h3>
-    <h3>December 28 2014</h3>
+    <h2>RSVP</h2>
+
+    {{--<div class="row">--}}
+        {{--<div class="large-6 columns"><h3>Maeve and Johann</h3></div>--}}
+        {{--<div class="large-6 columns"><h3>December 28 2014</h3></div>--}}
+    {{--</div>--}}
 
     <p>Kindly RSVP <strong class="underline">each</strong> guest separately by Nov 30 so we can properly accomodate everyone on this special day.</p>
 
@@ -13,23 +17,23 @@
         @endforeach
     </ul>
 
-    <div class="row">
+    <div class="row rsvpRadio">
                <div class="large-12 columns">
                     <p>Everything is set! Tell us if your coming!</p>
                 </div>
                 <div class="large-12 columns">
-                  {{ Form::radio('rsvp', 'yes'); }}
-                  {{ Form::label('rsvp', 'Yes, would not miss it!', array('class' => 'yesorno')) }}
+                  {{ Form::radio('attending', true); }}
+                  {{ Form::label('attending', 'Yes, would not miss it!', array('class' => 'yesRsvp')) }}
                 </div>
                  <div class="large-12 columns">
-                    {{ Form::radio('rsvp', 'no'); }}
-                    {{ Form::label('rsvp', 'Sorry, will not make it', array('class' => 'yesorno')) }}
+                    {{ Form::radio('attending', false); }}
+                    {{ Form::label('attending', 'Sorry, will not make it', array('class' => 'noRsvp')) }}
                  </div>
      </div>
 
    <div class="row">
         <div class="large-12 columns">
-                {{ Form::checkbox('vegetarian', 'value', false, array('id'=>'vegetarian')) }}
+                {{ Form::checkbox('vegetarian', true, false, array('id'=>'vegetarian')) }}
                 {{ Form::label('vegetarian', 'Tick if you would you like the Vegetarian option?', array('class' => 'vegetarian')) }}
         </div>
     </div>
@@ -50,5 +54,9 @@
         </div>
      </div>
 
-    {{ Form::submit('Send RSVP', array('class'=>'rsvpButton')) }}
+    <div class="row">
+        <div class="rsvpButtonDiv large-6 columns">
+            {{ Form::submit('Send RSVP', array('class'=>'rsvpButton')) }}
+        </div>
+     </div>
 {{ Form::close() }}

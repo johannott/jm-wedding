@@ -25,7 +25,7 @@ body.jm{
   font-size: 18px;
   line-height: 1.4;
   background: url("../img/sand.jpg");
-  //color: $color3;
+ 
 }
 
 h1,h2,h3,h4,h5,h6,p,a{
@@ -153,6 +153,14 @@ h2 { font-size: 3em; }
            color: $color19;
         } 
 
+        .rsvpRadio{
+          line-height: 0;
+        }
+
+        .rsvpButtonDiv{
+          padding-bottom: 15px;
+        }
+
         .rsvpButton{
           background: url("../img/sand.jpg");
           color: $color18;
@@ -184,6 +192,11 @@ h2 { font-size: 3em; }
         overflow: hidden;
         display: block;
         position: relative;
+        height : 600px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 20px;
+
      }
 
      &.photos::after {
@@ -332,6 +345,10 @@ filter: url(desaturate.svg#greyscale);
 .underline{
   text-decoration: underline;
 }
+
+ .yesRsvp {
+      margin: 0;
+  } 
 
 
 

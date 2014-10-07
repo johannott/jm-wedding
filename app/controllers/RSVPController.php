@@ -19,8 +19,9 @@ class RSVPController extends \BaseController {
             // validation has passed, save user in DB
             $rsvp = new RSVP;
             $rsvp->guest1 = Input::get('guest1');
-            $rsvp->guest2 = Input::get('guest2');
             $rsvp->email = Input::get('email');
+            $rsvp->attending = Input::get('attending');
+            $rsvp->vegetarian = Input::has('vegetarian') ? 1 : 0;;
             $rsvp->save();
 
             return Redirect::to('/dashboard/#rsvp')->with('message', 'Thanks for your RSVP!');

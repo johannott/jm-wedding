@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateRsvpTable extends Migration {
+class AddVegCheckToRsvpTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -35,7 +35,7 @@ class CreateRsvpTable extends Migration {
 		{
 			//
             Schema::drop('rsvp');
-		});
+        });
 	}
 
 }
