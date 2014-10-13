@@ -41,10 +41,9 @@
       <ul class="right">
         <li><a class="jo" data-scroll-nav="0" >M + J</a></li>
         <li><a data-scroll-nav="1" >Wedding Party</a></li>
-        <li><a data-scroll-nav="2" >Getting There</a></li>
-        <li><a data-scroll-nav="3" >Accomadation</a></li>
-        <li><a data-scroll-nav="4" >RSVP</a></li>
-        <!-- <li><a data-scroll-nav="4" >Photos</a></li> -->
+        <li><a data-scroll-nav="2" >Event Info</a></li>
+        <li><a data-scroll-nav="3" >RSVP</a></li>
+        <li><a data-scroll-nav="4" >Photos</a></li>
       </ul>
     </section>
   </nav>
@@ -61,51 +60,66 @@
 <section class="row" data-scroll-index='1'>
   <div class='content weddingparty'>
       <div class="panel wp large-12 columns">
+          <h3 class="titleWeddingParty">The Wedding Party</h3>
           <ul class="clearing-thumbs small-block-grid-2 medium-block-grid-3 large-block-grid-4" data-clearing>
-              <li><a class="th" href="/assets/img/wed/JM.jpg"><img src="/assets/img/wed/JM.jpg"></a></li>
-              <li><a class="th" href="/assets/img/wed/Johann.jpg"><img src="/assets/img/wed/Johann.jpg"></a></li>
-              <li><a class="th" href="/assets/img/wed/Maeve.jpg"><img src="/assets/img/wed/Maeve.jpg"></a></li>
-              <li><a class="th" href="/assets/img/wed/Corm.jpg"><img src="/assets/img/wed/Corm.jpg"></a></li>
-              <li><a class="th" href="assets/img/wed/Keira.jpg"><img src="assets/img/wed/Keira.jpg"></a></li>
-              <li><a class="th" href="assets/img/wed/Keith.jpg"><img src="assets/img/wed/Keith.jpg"></a></li>
-              <li><a class="th" href="assets/img/wed/Eimir.jpg"><img src="assets/img/wed/Eimir.jpg"></a></li>
-              <li><a class="th" href="assets/img/wed/Rhino.jpg"><img src="assets/img/wed/Rhino.jpg"></a></li>
-              <li><a class="th" href="assets/img/wed/Claire.jpg"><img src="assets/img/wed/Claire.jpg"></a></li>
-              <li><a class="th" href="assets/img/wed/Greg.jpg"><img src="assets/img/wed/Greg.jpg"></a></li>
-              <li><a class="th" href="assets/img/wed/Lisa.jpg"><img src="assets/img/wed/Lisa.jpg"></a></li>
-              <li><a class="th" href="assets/img/wed/Henry.jpg"><img src="assets/img/wed/Henry.jpg"></a></li>
+              <li><a class="th" href="/assets/img/wed/JM.jpg" title="The Happy Couple"><img src="/assets/img/wed/JM.jpg"></a><p>The Happy Couple</p></li>
+              <li><a class="th" href="/assets/img/wed/Johann.jpg" title="Johann Ott"><img src="/assets/img/wed/Johann.jpg"></a><p>Johann Ott</p></li>
+              <li><a class="th" href="/assets/img/wed/Maeve.jpg" title="Maeve Faherty"><img src="/assets/img/wed/Maeve.jpg"></a><p>Maeve Faherty</p></li>
+              <li><a class="th" href="/assets/img/wed/Corm.jpg" title="Cormac Meaney"><img src="/assets/img/wed/Corm.jpg"></a><p>Cormac Meaney</p></li>
+              <li><a class="th" href="/assets/img/wed/Keira.jpg" title="Keira Faherty"><img src="/assets/img/wed/Keira.jpg"></a><p>Keira Faherty</p></li>
+              <li><a class="th" href="/assets/img/wed/Keith.jpg" title="Keith Sciascia"><img src="/assets/img/wed/Keith.jpg"></a><p>Keith Sciascia</p></li>
+              <li><a class="th" href="/assets/img/wed/Eimir.jpg" title="Eimir Mannion"><img src="/assets/img/wed/Eimir.jpg"></a><p>Eimir Mannion</p></li>
+              <li><a class="th" href="/assets/img/wed/Rhino.jpg" title="Ryan Murray"><img src="/assets/img/wed/Rhino.jpg"></a><p>Ryan Murray</p></li>
+              <li><a class="th" href="/assets/img/wed/Claire.jpg" title="Claire Heskin"><img src="/assets/img/wed/Claire.jpg"></a><p>Claire Heskin</p></li>
+              <li><a class="th" href="/assets/img/wed/Greg.jpg" title="Greg Faherty"><img src="/assets/img/wed/Greg.jpg"></a><p>Greg Faherty</p></li>
+              <li><a class="th" href="/assets/img/wed/Lisa.jpg" title="Lisa Ott"><img src="/assets/img/wed/Lisa.jpg"></a><p>Lisa Ott</p></li>
+              <li><a class="th" href="/assets/img/wed/Henry.jpg" title="Henry Glynn"><img src="/assets/img/wed/Henry.jpg"></a><p>Henry Glynn</p></li>
           </ul>
       </div>
 </section>
  
 <section class="row" data-scroll-index='2'>
   <div class='content gettingthere large-12 columns'>
-      <dl class="tabs row" data-tab>
-          <dd class="active small-6 large-6 columns"><a href="#panel1">Event Info</a></dd>
-          <dd class="small-6 large-6 columns"><a href="#panel2">Directions</a></dd>
-      </dl>
-      <div class="tabs-content">
-          <div class="content active" id="panel1">
-              <p>Wedding Ceremony @ 2 @ Furbo Church</p>
-              <p>Dinner & Dancing after @ Salthill Hotel</p>
-          </div>
-          <div class="content" id="panel2">
-              <p>Map will go here</p>
-                  <!-- Responsive iFrame -->
-      <!--    <div class="flexible-container" id="flexible-container"> -->
-          </div>
-      </div>
 
+      <ul class="example-orbit-content" data-orbit>
+        <li data-orbit-slide="headline-1">
+          <div class="row">
+            <h2>Event Info</h2>
+            <div class="large-6 small-12 columns">
+                <p>Wedding Ceremony @ 2 @ Furbo Church</p>
+                <img src="/assets/img/wed/Furbo.jpg">
+            </div>
+            <div class="large-6 small-12 columns">
+                <p>Dinner & Dancing after @ Salthill Hotel</p>
+                 <img src="/assets/img/wed/Hotel.jpg">
+            </div>
+          </div>
+        </li>
+        <li data-orbit-slide="headline-2">
+          <div class="row">
+            <h2>Directions</h2>
+            <div class="large-6 small-12 columns">
+               <h3>To Church</h3>
+               <p> From Salthill take the R336 heading west. Turn left onto Barna Rd/R336. Continue to follow this road for around 7km and church will be on your left.</p>
+               <h3>To Hotel from Church</h3>
+               <p> From the church turn left onto main road heading east. Continue to follow this road for around 7km. Turn right staying on R336 for about 1.5km then turn left on Rockbarton West. Hotel will be on your left. </p>
+            </div>
+            <div class="large-6 small-12 columns">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d38194.281507755586!2d-9.142349527363976!3d53.25114449997901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!1i0!3e6!4m3!3m2!1d53.249628699999995!2d-9.2137871!4m5!1s0x0%3A0x963a634039b882c5!2sSalthill+Hotel!3m2!1d53.258615999999996!2d-9.08732!5e0!3m2!1sen!2sie!4v1413138726141" width="400" height="300" frameborder="0" style="border:0"></iframe>
+            </div>
+          </div>
+        </li>
+        <li data-orbit-slide="headline-3">
+          <div>
+            <h2>Accommodation</h2>
+            <p>If you are joining us from out of town, you may wish to book accommodation. Some hotels and b&bs we can recommend that are located closer to the venue include:</p>
+           </div>
+        </li>
+      </ul>
   </div>
 </section>
-  
+
 <section class="row" data-scroll-index='3'>
-  <div class='content accom large-12 small-12 columns'>
-     <p>List of hotels & B&Bs</p>
-  </div>
-</section>
-
-<section class="row" data-scroll-index='4'>
   <div id="rsvp" class='content rsvp large-12 small-12 columns'>
   
    <div class="large-12 small-12 columns">
@@ -115,9 +129,9 @@
   </div>
 </section>
  
-<section class="row" data-scroll-index='5'>
+<section class="row" data-scroll-index='4'>
   <div class='content photos'>
-    <h2>Photos of our special day! Coming soon...</h2>
+    <h2>Upload photos of our special day! Coming soon...</h2>
   </div>
 </section>
 
@@ -131,8 +145,15 @@
   <script src="{{ URL::asset('assets/js/flowtype.js') }}"></script>
   <script src="{{ URL::asset('assets/js/foundation.min.js') }}"></script>
   <script src="{{ URL::asset('components/vendor/foundation/js/foundation/foundation.clearing.js') }}"></script>
+  <script src="{{ URL::asset('components/vendor/foundation/js/foundation/foundation.interchange.js') }}"></script>
+
   <script>
-    $(document).foundation();
+    $(document).foundation({
+        orbit: {
+            slide_number: false,
+            timer: false
+        }
+    });
 
     $(function() { 
       $.scrollIt({

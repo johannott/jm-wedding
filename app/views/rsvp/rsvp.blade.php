@@ -2,11 +2,6 @@
 
     <h2>RSVP</h2>
 
-    {{--<div class="row">--}}
-        {{--<div class="large-6 columns"><h3>Maeve and Johann</h3></div>--}}
-        {{--<div class="large-6 columns"><h3>December 28 2014</h3></div>--}}
-    {{--</div>--}}
-
     <p>Kindly RSVP <strong class="underline">each</strong> guest separately by Nov 30 so we can properly accomodate everyone on this special day.</p>
 
     <p>With all our love, M & J</p>

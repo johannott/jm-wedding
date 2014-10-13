@@ -81,6 +81,17 @@ h2 { font-size: 3em; }
         overflow: hidden; 
         display: block;
         position: relative; 
+        text-align: center;
+
+        h1, h2, h3, h4, h5, p, label{
+          color: $color19;
+        }
+
+        .titleWeddingParty{
+          text-align: center;
+          padding: 10px;
+        }
+
      }
 
      &.weddingparty::after {
@@ -103,6 +114,26 @@ h2 { font-size: 3em; }
         display: block;
         position: relative;
         text-align: center;
+
+        img{
+          margin: auto;
+        }
+
+        .orbit-bullets li{
+          background: $color17;
+
+          &.active{
+            background: $color18;            
+          }
+        }
+
+        .orbit-prev > span{
+          border-right-color: $color18;
+        }
+
+        .orbit-next > span{
+          border-left-color: $color18;
+        }
      }
 
      &.gettingthere::after {
@@ -168,6 +199,14 @@ h2 { font-size: 3em; }
           &:hover{
             background: url("../img/fern.jpg");
             color: $color19; 
+          }
+        }
+
+        .rsvpLink{
+          color: $color19;
+
+           &:hover{
+            color: $color17; 
           }
         }
 
