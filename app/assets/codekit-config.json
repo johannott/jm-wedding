@@ -122,15 +122,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
-    },
     "\/sass\/ie.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -142,6 +133,15 @@
       "outputAbbreviatedPath" : "\/..\/..\/public\/assets\/css\/ie.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
     },
     "\/css\/print.css" : {
       "ignoreWasSetByUser" : 0,
@@ -164,12 +164,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/ie.css" : {
+    "\/sass\/main.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/ie.css",
+      "inputAbbreviatedPath" : "\/sass\/main.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -194,12 +194,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/main.css" : {
+    "\/sass\/ie.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/main.css",
+      "inputAbbreviatedPath" : "\/sass\/ie.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },

@@ -27,9 +27,9 @@
      </div>
 
    <div class="row">
-        <div class="large-12 columns">
+        <div class="large-12 small-12 columns">
                 {{ Form::checkbox('vegetarian', true, false, array('id'=>'vegetarian')) }}
-                {{ Form::label('vegetarian', 'Tick if you would you like the Vegetarian option?', array('class' => 'vegetarian')) }}
+                {{ Form::label('vegetarian', 'Tick for the Vegetarian option', array('class' => 'vegetarian')) }}
         </div>
     </div>
 

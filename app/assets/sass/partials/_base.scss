@@ -134,6 +134,30 @@ h2 { font-size: 3em; }
         .orbit-next > span{
           border-left-color: $color18;
         }
+
+        table{
+          width: 100%;
+          background: url("../img/sand.jpg");
+          border: none;          
+
+          thead{
+            background: url("../img/olive.jpg");
+
+            th{
+              text-align: center;
+              color: $color19;
+            }
+        
+          }
+
+          tr:nth-of-type(even){
+            background: url("../img/sand.jpg");
+          }
+          
+          tr td{
+             color: $color18;
+          } 
+        }
      }
 
      &.gettingthere::after {
@@ -231,7 +255,7 @@ h2 { font-size: 3em; }
         overflow: hidden;
         display: block;
         position: relative;
-        height : 600px;
+        //height : 600px;
         text-align: center;
         vertical-align: middle;
         padding: 20px;
@@ -378,7 +402,9 @@ li.wp-list{
 img{
 -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
 filter: gray; filter: grayscale(100%);
-filter: url(desaturate.svg#greyscale);
+//filter: url(desaturate.img#greyscale);
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+
 }
 
 .underline{
