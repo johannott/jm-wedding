@@ -66,7 +66,7 @@
               <li><a class="th" href="/assets/img/wed/Johann.jpg" title="Johann Ott"><img src="/assets/img/wed/Johann.jpg"></a><p>Johann Ott</p></li>
               <li><a class="th" href="/assets/img/wed/Maeve.jpg" title="Maeve Faherty"><img src="/assets/img/wed/Maeve.jpg"></a><p>Maeve Faherty</p></li>
               <li><a class="th" href="/assets/img/wed/Corm.jpg" title="Cormac Meaney"><img src="/assets/img/wed/Corm.jpg"></a><p>Cormac Meaney</p></li>
-              <li><a class="th" href="/assets/img/wed/Keira.jpg" title="Keira Faherty"><img src="/assets/img/wed/Keira.jpg"></a><p>Keira Faherty</p></li>
+              <li><a class="th" href="/assets/img/wed/Keira.jpg" title="Keira Glynn"><img src="/assets/img/wed/Keira.jpg"></a><p>Keira Glynn</p></li>
               <li><a class="th" href="/assets/img/wed/Keith.jpg" title="Keith Sciascia"><img src="/assets/img/wed/Keith.jpg"></a><p>Keith Sciascia</p></li>
               <li><a class="th" href="/assets/img/wed/Eimir.jpg" title="Eimir Mannion"><img src="/assets/img/wed/Eimir.jpg"></a><p>Eimir Mannion</p></li>
               <li><a class="th" href="/assets/img/wed/Rhino.jpg" title="Ryan Murray"><img src="/assets/img/wed/Rhino.jpg"></a><p>Ryan Murray</p></li>
@@ -76,6 +76,7 @@
               <li><a class="th" href="/assets/img/wed/Henry.jpg" title="Henry Glynn"><img src="/assets/img/wed/Henry.jpg"></a><p>Henry Glynn</p></li>
           </ul>
       </div>
+  </div>
 </section>
  
 <section class="row" data-scroll-index='2'>
@@ -113,7 +114,7 @@
           <div class="row">
               <div>
                   <div class="large-12 small-10 small-centered large-uncentered columns">
-                    <h3>Accommodation</h3>
+                    <h2>Accommodation</h2>
                     <p>If you are joining us from out of town, you may wish to book accommodation. Some hotels and B&Bs we can recommend are listed below.</p>
                   </div>
                   <div class="large-12 small-10 small-centered large-uncentered columns">
@@ -152,6 +153,72 @@
            </div>
         </li>
       </ul>
+
+      <div class="show-for-small-only">
+        <div class="row">
+                    <h2>Event Info</h2>
+                    <div class="large-6 small-10 small-centered large-uncentered columns">
+                        <p>Wedding Ceremony @ 2 @ Furbo Church</p>
+                        <img src="/assets/img/wed/Furbo.jpg">
+                    </div>
+                    <div class="large-6 small-10 small-centered large-uncentered columns">
+                        <p>Dinner & Dancing after @ Salthill Hotel</p>
+                        <img src="/assets/img/wed/Hotel.jpg">
+                    </div>
+        </div>
+        <div class="row">
+                    <h2>Directions</h2>
+                    <div class="large-6 small-10 small-centered large-uncentered columns">
+                       <h3>To Church</h3>
+                       <p> From Salthill take the R336 heading west. Turn left onto Barna Rd/R336. Continue to follow this road for around 7km and church will be on your left.</p>
+                       <h3>To Hotel from Church</h3>
+                       <p> From the church turn left onto main road heading east. Continue to follow this road for around 7km. Turn right staying on R336 for about 1.5km then turn left on Rockbarton West. Hotel will be on your left. </p>
+                    </div>
+                    <div class="large-6 small-10 small-centered large-uncentered columns">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d38194.281507755586!2d-9.142349527363976!3d53.25114449997901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!1i0!3e6!4m3!3m2!1d53.249628699999995!2d-9.2137871!4m5!1s0x0%3A0x963a634039b882c5!2sSalthill+Hotel!3m2!1d53.258615999999996!2d-9.08732!5e0!3m2!1sen!2sie!4v1413138726141" width="400" height="300" frameborder="0" style="border:0"></iframe>
+                    </div>
+        </div>
+        <div class="row">
+                      <div>
+                          <div class="large-12 small-10 small-centered large-uncentered columns">
+                            <h2>Accommodation</h2>
+                            <p>If you are joining us from out of town, you may wish to book accommodation. Some hotels and B&Bs we can recommend are listed below.</p>
+                          </div>
+                          <div class="large-12 small-10 small-centered large-uncentered columns">
+                           <table>
+                             <thead>
+                               <tr>
+                                 <th>Hotel/B&B</th>
+                                 <th>Website</th>
+                                 <th>Telephone</th>
+                               </tr>
+                             </thead>
+                             <tbody>
+                               <tr>
+                                 <td>Salthill Hotel</td>
+                                 <td><a href="http://www.salthillhotel.com/" target="_blank">www.salthillhotel.com</a></td>
+                                 <td>+353 91 522711</td>
+                               </tr>
+                               <tr>
+                                 <td>Galway Bay Hotel</td>
+                                 <td><a href="http://www.galwaybayhotel.net/" target="_blank">www.galwaybayhotel.net</a></td>
+                                 <td>+353 91 520520</td>
+                               </tr>
+                               <tr>
+                                 <td>Consilio B&B</td>
+                                 <td><a href="http://www.consiliobandb.com/contact-105.aspx" target="_blank">www.consiliobandb.com</a></td>
+                                 <td>+353 91 586450</td>
+                               </tr>
+                             </tbody>
+                           </table>
+                          </div>
+                      <div>
+
+
+                      </div>
+                      </div>
+                   </div>
+      </div>
   </div>
 </section>
 
@@ -209,6 +276,11 @@
        maxFont   : 40,
        fontRatio : 30
     });
+
+$(document).ready(function() {
+    console.log( "ready!" );
+    $('.orbit-container').addClass("hide-for-small-only");
+});
 
   </script>
 </body>
