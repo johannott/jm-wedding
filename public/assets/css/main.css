@@ -1367,30 +1367,33 @@ h2 {
       .content.gettingthere .orbit-bullets li.active {
         background: rgba(108, 112, 94, 0.8); }
     /* line 130, ../../../app/assets/sass/partials/_base.scss */
+    .content.gettingthere .show-for-small-only .imageSmall {
+      padding-bottom: 25px; }
+    /* line 134, ../../../app/assets/sass/partials/_base.scss */
     .content.gettingthere .orbit-prev > span {
       border-right-color: rgba(108, 112, 94, 0.8); }
-    /* line 134, ../../../app/assets/sass/partials/_base.scss */
+    /* line 138, ../../../app/assets/sass/partials/_base.scss */
     .content.gettingthere .orbit-next > span {
       border-left-color: rgba(108, 112, 94, 0.8); }
-    /* line 138, ../../../app/assets/sass/partials/_base.scss */
+    /* line 142, ../../../app/assets/sass/partials/_base.scss */
     .content.gettingthere table {
       width: 100%;
       background: url("../img/sand.jpg");
       border: none; }
-      /* line 143, ../../../app/assets/sass/partials/_base.scss */
+      /* line 147, ../../../app/assets/sass/partials/_base.scss */
       .content.gettingthere table thead {
         background: url("../img/olive.jpg"); }
-        /* line 146, ../../../app/assets/sass/partials/_base.scss */
+        /* line 150, ../../../app/assets/sass/partials/_base.scss */
         .content.gettingthere table thead th {
           text-align: center;
           color: rgba(213, 210, 196, 0.8); }
-      /* line 153, ../../../app/assets/sass/partials/_base.scss */
+      /* line 157, ../../../app/assets/sass/partials/_base.scss */
       .content.gettingthere table tr:nth-of-type(even) {
         background: url("../img/sand.jpg"); }
-      /* line 157, ../../../app/assets/sass/partials/_base.scss */
+      /* line 161, ../../../app/assets/sass/partials/_base.scss */
       .content.gettingthere table tr td {
         color: rgba(108, 112, 94, 0.8); }
-  /* line 163, ../../../app/assets/sass/partials/_base.scss */
+  /* line 167, ../../../app/assets/sass/partials/_base.scss */
   .content.gettingthere::after {
     content: "";
     background: url("../img/sand.jpg");
@@ -1400,7 +1403,7 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -1; }
-  /* line 174, ../../../app/assets/sass/partials/_base.scss */
+  /* line 178, ../../../app/assets/sass/partials/_base.scss */
   .content.accom {
     font-family: "TravelingTypewriter", serif;
     color: rgba(108, 112, 94, 0.8);
@@ -1408,7 +1411,7 @@ h2 {
     display: block;
     position: relative;
     text-align: center; }
-  /* line 185, ../../../app/assets/sass/partials/_base.scss */
+  /* line 189, ../../../app/assets/sass/partials/_base.scss */
   .content.accom::after {
     content: "";
     background: url("../img/sand.jpg");
@@ -1418,7 +1421,7 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -1; }
-  /* line 196, ../../../app/assets/sass/partials/_base.scss */
+  /* line 200, ../../../app/assets/sass/partials/_base.scss */
   .content.rsvp {
     background: url("../img/olive.jpg");
     font-family: "TravelingTypewriter", serif;
@@ -1426,30 +1429,30 @@ h2 {
     overflow: hidden;
     display: block;
     position: relative; }
-    /* line 207, ../../../app/assets/sass/partials/_base.scss */
+    /* line 211, ../../../app/assets/sass/partials/_base.scss */
     .content.rsvp h1, .content.rsvp h2, .content.rsvp h3, .content.rsvp h4, .content.rsvp h5, .content.rsvp p, .content.rsvp label {
       color: rgba(213, 210, 196, 0.8); }
-    /* line 211, ../../../app/assets/sass/partials/_base.scss */
+    /* line 215, ../../../app/assets/sass/partials/_base.scss */
     .content.rsvp .rsvpRadio {
       line-height: 0; }
-    /* line 215, ../../../app/assets/sass/partials/_base.scss */
+    /* line 219, ../../../app/assets/sass/partials/_base.scss */
     .content.rsvp .rsvpButtonDiv {
       padding-bottom: 15px; }
-    /* line 219, ../../../app/assets/sass/partials/_base.scss */
+    /* line 223, ../../../app/assets/sass/partials/_base.scss */
     .content.rsvp .rsvpButton {
       background: url("../img/sand.jpg");
       color: rgba(108, 112, 94, 0.8); }
-      /* line 223, ../../../app/assets/sass/partials/_base.scss */
+      /* line 227, ../../../app/assets/sass/partials/_base.scss */
       .content.rsvp .rsvpButton:hover {
         background: url("../img/fern.jpg");
         color: rgba(213, 210, 196, 0.8); }
-    /* line 229, ../../../app/assets/sass/partials/_base.scss */
+    /* line 233, ../../../app/assets/sass/partials/_base.scss */
     .content.rsvp .rsvpLink {
       color: rgba(213, 210, 196, 0.8); }
-      /* line 232, ../../../app/assets/sass/partials/_base.scss */
+      /* line 236, ../../../app/assets/sass/partials/_base.scss */
       .content.rsvp .rsvpLink:hover {
         color: rgba(162, 180, 161, 0.8); }
-  /* line 239, ../../../app/assets/sass/partials/_base.scss */
+  /* line 243, ../../../app/assets/sass/partials/_base.scss */
   .content.rsvp::after {
     content: "";
     background: url("../img/sand.jpg");
@@ -1459,7 +1462,7 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -1; }
-  /* line 250, ../../../app/assets/sass/partials/_base.scss */
+  /* line 254, ../../../app/assets/sass/partials/_base.scss */
   .content.photos {
     font-family: "TravelingTypewriter", serif;
     color: rgba(108, 112, 94, 0.8);
@@ -1469,7 +1472,7 @@ h2 {
     text-align: center;
     vertical-align: middle;
     padding: 20px; }
-  /* line 265, ../../../app/assets/sass/partials/_base.scss */
+  /* line 269, ../../../app/assets/sass/partials/_base.scss */
   .content.photos::after {
     content: "";
     background: url("../img/sand.jpg");
@@ -1479,117 +1482,117 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -1; }
-  /* line 276, ../../../app/assets/sass/partials/_base.scss */
+  /* line 280, ../../../app/assets/sass/partials/_base.scss */
   .content .panel.wp {
     background: url("../img/olive.jpg");
     color: rgba(213, 210, 196, 0.8); }
-    /* line 280, ../../../app/assets/sass/partials/_base.scss */
+    /* line 284, ../../../app/assets/sass/partials/_base.scss */
     .content .panel.wp p {
       color: rgba(213, 210, 196, 0.8); }
-    /* line 283, ../../../app/assets/sass/partials/_base.scss */
+    /* line 287, ../../../app/assets/sass/partials/_base.scss */
     .content .panel.wp h5 {
       color: rgba(213, 210, 196, 0.8); }
 
-/* line 290, ../../../app/assets/sass/partials/_base.scss */
+/* line 294, ../../../app/assets/sass/partials/_base.scss */
 .contain-to-grid {
   background: url("../img/sand.jpg"); }
 
-/* line 294, ../../../app/assets/sass/partials/_base.scss */
+/* line 298, ../../../app/assets/sass/partials/_base.scss */
 .top-bar .name h1 a {
   font-family: "Swanky and Moo Moo", cursive;
   color: rgba(213, 210, 196, 0.8);
   font-size: 1em;
   display: inline; }
 
-/* line 301, ../../../app/assets/sass/partials/_base.scss */
+/* line 305, ../../../app/assets/sass/partials/_base.scss */
 .top-bar-section li:not(.has-form) a:not(.button) {
   background: url("../img/olive.jpg"); }
-  /* line 304, ../../../app/assets/sass/partials/_base.scss */
+  /* line 308, ../../../app/assets/sass/partials/_base.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background: url("../img/fern.jpg");
     color: rgba(213, 210, 196, 0.8); }
 
-/* line 310, ../../../app/assets/sass/partials/_base.scss */
+/* line 314, ../../../app/assets/sass/partials/_base.scss */
 .top-bar-section li a:hover {
   background: url("../img/fern.jpg"); }
 
-/* line 314, ../../../app/assets/sass/partials/_base.scss */
+/* line 318, ../../../app/assets/sass/partials/_base.scss */
 .top-bar {
   background: url("../img/olive.jpg"); }
 
-/* line 318, ../../../app/assets/sass/partials/_base.scss */
+/* line 322, ../../../app/assets/sass/partials/_base.scss */
 .top-bar-section .left {
   background: url("../img/olive.jpg"); }
-  /* line 321, ../../../app/assets/sass/partials/_base.scss */
+  /* line 325, ../../../app/assets/sass/partials/_base.scss */
   .top-bar-section .left .jo {
     color: rgba(213, 210, 196, 0.8); }
 
-/* line 327, ../../../app/assets/sass/partials/_base.scss */
+/* line 331, ../../../app/assets/sass/partials/_base.scss */
 ul.right li a {
   color: rgba(213, 210, 196, 0.8);
   font-family: "Swanky and Moo Moo", cursive;
   font-size: 1em; }
 
-/* line 333, ../../../app/assets/sass/partials/_base.scss */
+/* line 337, ../../../app/assets/sass/partials/_base.scss */
 .top-bar.expanded .title-area {
   background: url("../img/olive.jpg"); }
 
-/* line 337, ../../../app/assets/sass/partials/_base.scss */
+/* line 341, ../../../app/assets/sass/partials/_base.scss */
 .top-bar .toggle-topbar.menu-icon a {
   color: rgba(213, 210, 196, 0.8); }
-  /* line 340, ../../../app/assets/sass/partials/_base.scss */
+  /* line 344, ../../../app/assets/sass/partials/_base.scss */
   .top-bar .toggle-topbar.menu-icon a::after {
     -webkit-box-shadow: 1px 10px 1px 1px rgba(213, 210, 196, 0.8), 1px 16px 1px 1px rgba(213, 210, 196, 0.8), 1px 22px 1px 1px rgba(213, 210, 196, 0.8);
     box-shadow: 0 10px 0 1px rgba(213, 210, 196, 0.8), 0 16px 0 1px rgba(213, 210, 196, 0.8), 0 22px 0 1px rgba(213, 210, 196, 0.8); }
 
-/* line 347, ../../../app/assets/sass/partials/_base.scss */
+/* line 351, ../../../app/assets/sass/partials/_base.scss */
 li.wp-list {
   width: 100%; }
 
-/* line 351, ../../../app/assets/sass/partials/_base.scss */
+/* line 355, ../../../app/assets/sass/partials/_base.scss */
 .accordion dd > a {
   color: rgba(213, 210, 196, 0.8);
   background: url("../img/olive.jpg");
   font-family: "TravelingTypewriter", serif; }
-  /* line 357, ../../../app/assets/sass/partials/_base.scss */
+  /* line 361, ../../../app/assets/sass/partials/_base.scss */
   .accordion dd > a:hover {
     background: url("../img/fern.jpg");
     color: rgba(108, 112, 94, 0.8); }
-  /* line 362, ../../../app/assets/sass/partials/_base.scss */
+  /* line 366, ../../../app/assets/sass/partials/_base.scss */
   .accordion dd > a:active {
     background: url("../img/fern.jpg");
     color: rgba(108, 112, 94, 0.8); }
 
-/* line 369, ../../../app/assets/sass/partials/_base.scss */
+/* line 373, ../../../app/assets/sass/partials/_base.scss */
 .accordion dd.active > a {
   background: url("../img/fern.jpg");
   color: rgba(108, 112, 94, 0.8); }
 
-/* line 374, ../../../app/assets/sass/partials/_base.scss */
+/* line 378, ../../../app/assets/sass/partials/_base.scss */
 .accordion .content.active {
   background: url("../img/fern.jpg");
   color: rgba(108, 112, 94, 0.8); }
 
-/* line 379, ../../../app/assets/sass/partials/_base.scss */
+/* line 383, ../../../app/assets/sass/partials/_base.scss */
 .tabs dd > a {
   background: url("../img/olive.jpg");
   color: rgba(213, 210, 196, 0.8);
   font-family: "TravelingTypewriter", serif; }
-  /* line 385, ../../../app/assets/sass/partials/_base.scss */
+  /* line 389, ../../../app/assets/sass/partials/_base.scss */
   .tabs dd > a:hover {
     background: url("../img/sand.jpg");
     color: rgba(108, 112, 94, 0.8); }
 
-/* line 392, ../../../app/assets/sass/partials/_base.scss */
+/* line 396, ../../../app/assets/sass/partials/_base.scss */
 .tabs dd.active > a {
   background: url("../img/olive.jpg");
   color: rgba(213, 210, 196, 0.8); }
-  /* line 396, ../../../app/assets/sass/partials/_base.scss */
+  /* line 400, ../../../app/assets/sass/partials/_base.scss */
   .tabs dd.active > a:hover {
     background: url("../img/sand.jpg");
     color: rgba(108, 112, 94, 0.8); }
 
-/* line 402, ../../../app/assets/sass/partials/_base.scss */
+/* line 406, ../../../app/assets/sass/partials/_base.scss */
 img {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -1598,11 +1601,11 @@ img {
   filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
   /* Firefox 3.5+ */ }
 
-/* line 410, ../../../app/assets/sass/partials/_base.scss */
+/* line 414, ../../../app/assets/sass/partials/_base.scss */
 .underline {
   text-decoration: underline; }
 
-/* line 414, ../../../app/assets/sass/partials/_base.scss */
+/* line 418, ../../../app/assets/sass/partials/_base.scss */
 .yesRsvp {
   margin: 0; }
 
