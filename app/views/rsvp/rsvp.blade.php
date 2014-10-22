@@ -34,10 +34,10 @@
     </div>
 
    <div class="row show-for-small-only">
-        <div class="small-1 columns">
+        <div class="small-1 columns paddingCheck">
             {{ Form::checkbox('vegetarian', true, false, array('id'=>'vegetarian')) }}
         </div>
-        <div class="small-11 columns">
+        <div class="small-11">
             {{ Form::label('vegetarian', 'Tick for the Vegetarian option', array('class' => 'vegetarian')) }}
         </div>
     </div>
