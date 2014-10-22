@@ -26,10 +26,19 @@
                  </div>
      </div>
 
-   <div class="row">
+   <div class="row hide-for-small-only">
         <div class="large-12 small-12 columns">
                 {{ Form::checkbox('vegetarian', true, false, array('id'=>'vegetarian')) }}
                 {{ Form::label('vegetarian', 'Tick for the Vegetarian option', array('class' => 'vegetarian')) }}
+        </div>
+    </div>
+
+   <div class="row show-for-small-only">
+        <div class="small-1 columns">
+            {{ Form::checkbox('vegetarian', true, false, array('id'=>'vegetarian')) }}
+        </div>
+        <div class="small-11 columns">
+            {{ Form::label('vegetarian', 'Tick for the Vegetarian option', array('class' => 'vegetarian')) }}
         </div>
     </div>
 
