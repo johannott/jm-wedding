@@ -285,8 +285,10 @@
     });
 
 $(document).ready(function() {
-    console.log( "ready!" );
-    $('.orbit-container').addClass("hide-for-small-only");
+   if(navigator.appName.indexOf("Netscape")!=-1){
+        alert("Internet Explorer not supported! Get a real browser.");
+ }
+$('.orbit-container').addClass("hide-for-small-only");
 });
 
   </script>
