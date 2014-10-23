@@ -286,7 +286,7 @@
 
 $(document).ready(function() {
    if(navigator.userAgent.indexOf("MSIE") != -1){
-        alert("Internet Explorer not supported! Get a real browser.");
+        alert("Internet Explorer not supported! Use a real browser like Chrome or Firefox.");
    }
 $('.orbit-container').addClass("hide-for-small-only");
 });
