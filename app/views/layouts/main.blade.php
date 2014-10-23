@@ -285,9 +285,9 @@
     });
 
 $(document).ready(function() {
-   if(navigator.appName.indexOf("Netscape")!=-1){
+   if(navigator.userAgent.indexOf("MSIE") != -1){
         alert("Internet Explorer not supported! Get a real browser.");
- }
+   }
 $('.orbit-container').addClass("hide-for-small-only");
 });
 
