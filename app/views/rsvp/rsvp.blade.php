@@ -17,11 +17,11 @@
                     <p>Everything is set! Tell us if your coming!</p>
                 </div>
                 <div class="large-12 columns">
-                  {{ Form::radio('attending', true); }}
+                  {{ Form::radio('attending', 1); }}
                   {{ Form::label('attending', 'Yes, would not miss it!', array('class' => 'yesRsvp')) }}
                 </div>
                  <div class="large-12 columns">
-                    {{ Form::radio('attending', false); }}
+                    {{ Form::radio('attending', 0); }}
                     {{ Form::label('attending', 'Sorry, will not make it', array('class' => 'noRsvp')) }}
                  </div>
      </div>

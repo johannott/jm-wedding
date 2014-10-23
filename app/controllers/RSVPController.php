@@ -21,7 +21,7 @@ class RSVPController extends \BaseController {
             $rsvp->guest1 = Input::get('guest1');
             $rsvp->email = Input::get('email');
             $rsvp->attending = Input::get('attending');
-            $rsvp->vegetarian = Input::has('vegetarian') ? 1 : 0;;
+            $rsvp->vegetarian = Input::has('vegetarian') ? 1 : 0;
             $rsvp->save();
 
             return Redirect::to('/dashboard/#rsvp')->with('message', 'Thanks for your RSVP!');
