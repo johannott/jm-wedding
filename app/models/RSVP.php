@@ -26,7 +26,7 @@ class RSVP extends Eloquent implements RemindableInterface {
      */
     public static $rules = array(
         'guest1'=>'required|min:6|unique:rsvp',
-        'email'=>'email|unique:rsvp',
+        'email'=>'email',
         'password'=>'required|in:jm281214,JM281214',
         'attending'=>'required'
     );
