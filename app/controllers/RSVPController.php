@@ -24,8 +24,8 @@ class RSVPController extends \BaseController {
             $rsvp->vegetarian = Input::has('vegetarian') ? 1 : 0;
             $rsvp->save();
 
-            Mail::send('emails.confirm', [], function($message) {
-                $message->to(Input::get('email'), Input::get('guest1'))
+            Mail::send('emails.confirm', array('user' => Input::get('guest1')), function($message) {
+                $message->to(Input::get('email'))
                     ->subject('Thank you for your RSVP!');
             });
 

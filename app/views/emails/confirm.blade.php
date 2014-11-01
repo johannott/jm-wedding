@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<div>
-		    Your RSVP has been received! Thank you!
+		    Your have sent an RSVP for {{ $user }}. Thank you!
 		</div>
 	</body>
 </html>
