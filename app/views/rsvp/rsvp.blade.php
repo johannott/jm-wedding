@@ -49,7 +49,7 @@
      </div>
     <div class="row">
         <div class="large-6 columns">
-            {{ Form::text('email', null, array('placeholder'=>'Email Address (Optional)')) }}
+            {{ Form::text('email', null, array('placeholder'=>'Email Address')) }}
         </div>
      </div>
     <div class="row">

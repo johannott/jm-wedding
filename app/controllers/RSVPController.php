@@ -24,6 +24,11 @@ class RSVPController extends \BaseController {
             $rsvp->vegetarian = Input::has('vegetarian') ? 1 : 0;
             $rsvp->save();
 
+            Mail::send('emails.confirm', [], function($message) {
+                $message->to(Input::get('email'), Input::get('guest1'))
+                    ->subject('Thank you for your RSVP!');
+            });
+
             return Redirect::to('/dashboard/#rsvp')->with('message', 'Thanks for your RSVP!');
         } else {
             // validation has failed, display error messages
