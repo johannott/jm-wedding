@@ -2,7 +2,7 @@
 
     <h2>RSVP</h2>
 
-    <p>Kindly RSVP <strong class="underline">each</strong> guest separately by Nov 30 so we can properly accomodate everyone on this special day.</p>
+    <h4>Kindly RSVP <strong class="underline">each</strong> guest separately by Nov 30 so we can properly accomodate everyone on this special day.</h4>
 
     <p>With all our love, M & J</p>
 
@@ -59,8 +59,8 @@
      </div>
 
     <div class="row">
-        <div class="rsvpButtonDiv large-6 columns">
-            Before clicking the RSVP button please ensure you have only entered one guest name for this RSVP. You will be given the option to RSVP another guest after.
+        <div class="rsvpButtonDiv large-10 columns">
+           <h4>Before clicking the RSVP button please ensure you have only entered one guest name for this RSVP. You will be given the option to RSVP another guest after.</h4>
         </div>
      </div>
 
