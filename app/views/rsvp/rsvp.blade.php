@@ -44,7 +44,7 @@
 
      <div class="row">
         <div class="large-6 columns">
-            {{ Form::text('guest1', null, array('placeholder'=>'Enter Full Guest Name (Separately)', 'class' => 'johann')) }}
+            {{ Form::text('guest1', null, array('placeholder'=>'Enter Full Guest Name (One Guest)', 'class' => 'johann')) }}
         </div>
      </div>
     <div class="row">
@@ -60,7 +60,7 @@
 
     <div class="row">
         <div class="rsvpButtonDiv large-6 columns">
-            Before clicking the RSVP button please ensure you have only enter one guest name for this RSVP. You will be given the option to RSVP another guest after. 
+            Before clicking the RSVP button please ensure you have only enter one guest name for this RSVP. You will be given the option to RSVP another guest after.
         </div>
      </div>
 
