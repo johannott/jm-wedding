@@ -44,7 +44,7 @@
 
      <div class="row">
         <div class="large-6 columns">
-            {{ Form::text('guest1', null, array('placeholder'=>'Enter Full Guest Name (One Guest)', 'class' => 'johann')) }}
+            {{ Form::text('guest1', null, array('placeholder'=>'Full Guest Name (One Guest)', 'class' => 'johann')) }}
         </div>
      </div>
     <div class="row">
