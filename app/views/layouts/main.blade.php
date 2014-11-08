@@ -175,7 +175,7 @@
                     <h2>Directions</h2>
                     <div class="large-6 small-10 small-centered large-uncentered columns">
                        <h3>To Church</h3>
-                       <p> From Salthill take the R336 heading west. Turn left onto Barna Rd/R336. Continue to follow this road for around 7km and church will be on your left.</p>
+                       <p> From Salthill take the R336 heading west. Turn left onto Barna Rd/R336. Continue to follow this road for around 7km and church will be on your right.</p>
                        <h3>To Hotel from Church</h3>
                        <p> From the church turn left onto main road heading east. Continue to follow this road for around 7km. Turn right staying on R336 for about 1.5km then turn left on Rockbarton West. Hotel will be on your left. </p>
                     </div>
